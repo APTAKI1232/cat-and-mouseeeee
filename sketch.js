@@ -1,13 +1,13 @@
 var cat,catimg1,catstopped,catsit,mousesit,mouse,mouserunning,mouseStopped,mousetease,bg,bgImg
 function preload() {
     //load the images here
-    catimg1 = loadAnimation ("images/cat2.png","images/cat3.png");
-    catstopped = loadAnimation ("images/cat1.png");
-    catsit = loadAnimation ("images/cat4.png")
-    bgImg = loadImage ("images/garden.png");
-    mouserunning = loadAnimation ("images/mouse2.png","images/mouse3.png");
-    mouseStopped = loadAnimation ("images/mouse4.png");
-    mousetease = loadAnimation ("images/mouse1.png")
+    catimg1 = loadAnimation ("cat2.png","cat3.png");
+    catstopped = loadAnimation ("cat1.png");
+    catsit = loadAnimation ("cat4.png")
+    bgImg = loadImage ("garden.png");
+    mouserunning = loadAnimation ("mouse2.png","mouse3.png");
+    mouseStopped = loadAnimation ("mouse4.png");
+    mousetease = loadAnimation ("mouse1.png")
     
 }
 
